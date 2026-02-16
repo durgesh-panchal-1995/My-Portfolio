@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate-circle{
+    border-radius: 50%;
+}
+
+
+@media(max-width:767px){
+    .grid-cols-4{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media(max-width:600px){
+    .grid-cols-4{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media(max-width:480px){
+    .grid-cols-4{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+@media(max-width:600px){
+ 
+    .top-div{
+       top:0px;
+    }
+    .top-div-block{
+        margin-top:80px;
+    }
+}
